@@ -19,7 +19,7 @@ union()
 		square([width,length]);
 		polygon(points = [[opening/2,0],[opening*3/2,0],[opening,length*.9]]);
 		};
-	dccircle(endStopperDiameter, $fn = resolution);
+	circle(endStopperDiameter, $fn = resolution);
 	translate([width,0,0])
 		circle(endStopperDiameter, $fn = resolution);
 	}	
